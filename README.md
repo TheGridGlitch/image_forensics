@@ -37,7 +37,7 @@ A Python-based tool for extracting and analyzing metadata from image files to un
 Run the script with the path to an image file as an argument:
 
 ```bash
-python extract_metadata_analysis.py /path/to/image.jpg
+python image_forensics.py /path/to/image.jpg
 ```
 
 ### Example Output
@@ -73,25 +73,6 @@ No obvious signs of editing found in the metadata.
 - Only supports image formats that contain EXIF metadata, such as JPG and TIFF.
 - Metadata can be intentionally removed or modified, making detection unreliable in some cases.
 - Does not support PNG metadata extraction.
-
-## Contributing
-
-Contributions are welcome! If you'd like to improve this tool, follow these steps:
-
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add a new feature"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
 
 ## License
 
